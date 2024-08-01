@@ -1,0 +1,55 @@
+.Total {
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  width: 400px;
+  margin: 50px auto;
+
+  .title {
+    font-size: 28px;
+    padding: 15px 15px 25px;
+    font-weight: 700;
+    color: #333;
+  }
+  ul {
+    border-bottom: 2px solid #333;
+    padding: 20px 0;
+    li {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 10px;
+      p {
+        color: #333;
+        font-weight: 600;
+
+        &:nth-child(1) {
+          width: 230px;
+          text-align: left;
+        }
+        &:nth-child(2) {
+          flex-grow: 1;
+          text-align: left;
+        }
+      }
+
+      .Total-price-item {
+        color: #24c486;
+      }
+    }
+  }
+  .total-price {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h3 {
+      font-size: 18px;
+      color: #333;
+    }
+    p {
+      color: #24c486;
+      font-weight: 600;
+    }
+  }
+}
